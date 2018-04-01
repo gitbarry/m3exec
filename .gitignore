@@ -5,6 +5,7 @@ sites/*/settings*.php
 sites/*/files
 sites/*/private
 
+# Seo sites
 camberley-cabs.co.uk/images
 frimleygreen-taxis.co.uk/images
 taxi-in-blackwater.co.uk/images
@@ -12,3 +13,34 @@ taxi-in-sandhurst.co.uk/images
 taxis-in-camberley.co.uk/images
 taxis-in-farnborough.co.uk/images
 taxis-in-frimley.co.uk/images
+
+# Database
+mysql
+
+# Dupal Core
+includes
+misc
+modules
+profiles
+scripts
+sites/default
+themes
+.editorconfig
+authorize.php
+CHANGELOG.txt
+COPYRIGHT.txt
+cron.php
+index.php
+INSTALL.mysql.txt
+INSTALL.pgsql.txt
+install.php
+INSTALL.sqlite.txt
+INSTALL.txt
+LICENSE.txt
+MAINTAINERS.txt
+README.txt
+sitemap.xml
+UPGRADE.txt
+web.config
+xmlrpc.php
+update.php
