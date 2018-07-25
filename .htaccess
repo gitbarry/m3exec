@@ -174,3 +174,7 @@ RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
   # Disable content sniffing, since it's an attack vector.
   Header always set X-Content-Type-Options nosniff
 </IfModule>
+
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\.m3exec/\.co.uk*
+RewriteRule ^(.*)$ https://m3exec.co.uk/$1 [L,R=301]
